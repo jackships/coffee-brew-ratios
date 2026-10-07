@@ -1,0 +1,25 @@
+{
+  "name": "coffee-brew-ratios",
+  "version": "1.0.0",
+  "description": "Coffee brew ratios, grind sizes and water temperatures by method, plus dose/water, bloom, extraction-yield and recipe-scaling helpers. Zero dependencies.",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": { "types": "./src/index.d.ts", "default": "./src/index.js" },
+    "./methods.json": "./data/methods.json",
+    "./grind-sizes.json": "./data/grind-sizes.json",
+    "./standards.json": "./data/standards.json"
+  },
+  "files": ["src", "data"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test",
+    "export": "node scripts/export-json.js",
+    "example": "node examples/cli.js v60 20"
+  },
+  "keywords": ["coffee", "brew-ratio", "pour-over", "espresso", "aeropress", "french-press", "cold-brew", "calculator"],
+  "author": "Jack Ships",
+  "license": "MIT"
+}

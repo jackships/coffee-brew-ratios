@@ -1,0 +1,52 @@
+{
+  "goldenCup": {
+    "source": "Specialty Coffee Association (SCA) Golden Cup",
+    "ratioGramsPerLiter": {
+      "min": 50,
+      "max": 60,
+      "target": 55
+    },
+    "waterTempC": {
+      "min": 90,
+      "max": 96,
+      "target": 93
+    },
+    "tdsPercent": {
+      "min": 1.15,
+      "max": 1.35
+    },
+    "extractionYieldPercent": {
+      "min": 18,
+      "max": 22
+    },
+    "appliesTo": "filter coffee; espresso is far stronger (TDS around 8–12%)"
+  },
+  "water": {
+    "source": "SCA water quality targets (approximate)",
+    "totalDissolvedSolidsMgL": {
+      "min": 75,
+      "max": 250,
+      "target": 150
+    },
+    "calciumHardnessMgL": {
+      "min": 17,
+      "max": 85,
+      "target": 68
+    },
+    "totalAlkalinityMgL": {
+      "target": 40
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5,
+      "target": 7
+    },
+    "sodiumMgL": {
+      "target": 10
+    },
+    "chlorineMgL": {
+      "target": 0
+    }
+  },
+  "groundsAbsorptionGPerG": 2
+}

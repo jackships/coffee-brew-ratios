@@ -1,0 +1,73 @@
+[
+  {
+    "id": "extra-coarse",
+    "name": "Extra coarse",
+    "zh": "极粗",
+    "looksLike": "cracked peppercorns",
+    "looksLikeZh": "压碎的胡椒粒",
+    "methods": [
+      "cold-brew",
+      "cold-brew-concentrate"
+    ]
+  },
+  {
+    "id": "coarse",
+    "name": "Coarse",
+    "zh": "粗",
+    "looksLike": "coarse sea salt",
+    "looksLikeZh": "粗海盐",
+    "methods": [
+      "french-press"
+    ]
+  },
+  {
+    "id": "medium-coarse",
+    "name": "Medium-coarse",
+    "zh": "中粗",
+    "looksLike": "rough sand",
+    "looksLikeZh": "粗沙",
+    "methods": [
+      "chemex"
+    ]
+  },
+  {
+    "id": "medium",
+    "name": "Medium",
+    "zh": "中",
+    "looksLike": "regular sand",
+    "looksLikeZh": "细沙",
+    "methods": [
+      "kalita"
+    ]
+  },
+  {
+    "id": "medium-fine",
+    "name": "Medium-fine",
+    "zh": "中细",
+    "looksLike": "a little coarser than table salt",
+    "looksLikeZh": "比食盐略粗",
+    "methods": [
+      "v60",
+      "aeropress"
+    ]
+  },
+  {
+    "id": "fine",
+    "name": "Fine",
+    "zh": "细",
+    "looksLike": "table salt or a bit finer",
+    "looksLikeZh": "食盐或更细",
+    "methods": [
+      "espresso",
+      "moka-pot"
+    ]
+  },
+  {
+    "id": "extra-fine",
+    "name": "Extra fine",
+    "zh": "极细",
+    "looksLike": "flour or powdered sugar",
+    "looksLikeZh": "面粉、糖粉",
+    "methods": []
+  }
+]
